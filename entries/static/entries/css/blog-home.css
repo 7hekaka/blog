@@ -5,5 +5,23 @@
  */
 body {
   padding-top: 56px;
-  background-image: url("images/nice_cat.jpg");
+  
+}
+.background-top {
+  background-image: image-url('background/images/nice_cat.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+}
+.background-mid {
+  background-image: image-url('background/images/nice_cat.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+.background-bot {
+  background-image: image-url('background/images/nice_cat.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
 }
