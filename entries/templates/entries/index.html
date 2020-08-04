@@ -119,13 +119,13 @@ http://www.tooplate.com/view/2099-scenic
 
                <div class="clearfix"></div>
 
-               <div class="col-md-10 col-sm-10 item">
+               <div class="col-md-6 col-sm-6 item">
                     <!-- PROJECT ITEM -->
                     {% for entry in blog_entries %}
                     <div class="project-item">
-                         <a href="{% static 'entries/images/project-image1.jpg' %}" class="image-popup">
+                         <a href="{{ entry.entry_image }}" class="image-popup">
 
-                              <img src="{% static 'entries/images/project-image1.jpg' %}" class="img-responsive" alt="">
+                              <img src="{{ entry.entry_image }}" class="img-responsive" alt="">
                          
                               <div class="project-overlay">
                                    <div class="project-info">
